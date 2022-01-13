@@ -153,16 +153,16 @@ setInterval(countdown,1000);
 
 const vid = document.getElementById('vid');
 const btn = document.querySelector('#demo');
-btn.innerHTML = "<img src = 'play.png'/>";
+btn.innerHTML = "<img src = 'img/play.png'/>";
 
 function Play(){
   if(vid.paused){
       vid.play();
-      btn.innerHTML = "<img src = 'pause.png'/>";
+      btn.innerHTML = "<img src = 'img/pause.png'/>";
   }
   else{
       vid.pause();
-      btn.innerHTML = "<img src = 'play.png'/>";
+      btn.innerHTML = "<img src = 'img/play.png'/>";
   }
 }
 
